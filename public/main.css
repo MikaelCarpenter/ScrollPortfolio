@@ -21,6 +21,7 @@ header nav a {
 	display: inline-block;
 	margin-left: 20px;
 	color: rgba(0,0,0,0.5);
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -33,6 +34,7 @@ header nav a:hover {
 
 header h1 {
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 72px;
 	font-weight: 700;
 	color: white;
@@ -50,6 +52,7 @@ header h1 span {
 }
 
 header .kicker {
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -82,6 +85,7 @@ footer .lockup .content-wrapper {
 
 footer .lockup .content-wrapper .copyright {
  	margin: 0;
+ 	font-family: 'Open Sans', sans-serif;
  	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -89,6 +93,7 @@ footer .lockup .content-wrapper .copyright {
 }
 
 footer .lockup .content-wrapper a {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -102,6 +107,54 @@ footer .lockup .content-wrapper a:hover {
   	color: rgba(0, 0, 0, 0.7); 
 }
 
+/* About */
+
+section h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #e1c184;
+	text-align: center;
+}
+
+section .face-lockup {
+	max-width: 780px;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+}
+
+section .face-lockup .face-img img{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	align-self: center;
+}
+
+section .face-lockup .icon-pencil svg{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+section .face-lockup .icon-mouse svg {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+section .face-lockup .icon-browser svg {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+section .face-lockup .icon-video svg {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
 
 
 
