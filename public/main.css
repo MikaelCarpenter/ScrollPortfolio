@@ -181,7 +181,7 @@ section .face-lockup .icon-video {
 }
 
 @media screen and (max-width: 650px) {
-	section div {
+	section .face-lockup div {
 		display: inline-block;
 	}
 }
@@ -230,7 +230,7 @@ section .skill-lockup .skill-unit .skill-icons span {
 	display: inline-block;
 	height: 14px;
 	width: 14px;
-	margin: 0 5px;
+	margin: 0 6px;
 	background-color: #c99065;
 	border-radius: 50%;
 }
@@ -244,10 +244,19 @@ section .skill-lockup .skill-unit .skill-icons span:after {
 	background: #fff;
 	border-radius: 50%;
 }
-/* this part isn't working */
-section .skill-lockup .skill-unit .skill-icons.skill-8 span:nth-child(n+9)  {
-	background: #e5eaee;
+
+section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), section .skill-lockup .skill-unit .skill-icons.skill-5 span:nth-child(n+6), section .skill-lockup .skill-unit .skill-icons.skill-6 span:nth-child(n+7), section .skill-lockup .skill-unit .skill-icons.skill-7 span:nth-child(n+8), section .skill-lockup .skill-unit .skill-icons.skill-8 span:nth-child(n+9), section .skill-lockup .skill-unit .skill-icons.skill-9 span:nth-child(n+10), section .skill-lockup .skill-unit .skill-icons.skill-10 span:nth-child(n+11) {
+	background: #D1CFD1;
 }
+
+@media (max-width: 714px) {
+	section .skill-lockup {
+		width: 350px;
+		margin: 100px auto;
+	}
+}
+
+
 
 
 
