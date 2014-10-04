@@ -116,6 +116,7 @@ section h3 {
 	text-transform: uppercase;
 	color: #e1c184;
 	text-align: center;
+	padding: 100px 0 30px;
 }
 
 section .face-lockup {
@@ -123,39 +124,72 @@ section .face-lockup {
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
+	justify-content: space-around;
 }
 
 section .face-lockup .face-img img{
 	width: 200px;
 	height: 200px;
 	margin: 0 auto;
-	align-self: center;
 }
 
 section .face-lockup .icon-pencil svg{
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
+	background-color: #e5eaee;
+	border-radius: 50%;
 }
 
 section .face-lockup .icon-mouse svg {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
+	background-color: #e5eaee;
+	border-radius: 50%;
 }
 
 section .face-lockup .icon-browser svg {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
+	background-color: #e5eaee;
+	border-radius: 50%;
 }
 
 section .face-lockup .icon-video svg {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
+	background-color: #e5eaee;
+	border-radius: 50%;
+}
+/* look up media query and order for that matter */
+@media screen and (max-width: 650px) {
+	.face-lockup
+		display: block;
+		text-align: center;
+
+	div
+		display: inline-block;
+
+	.face-img 
+		display: block;
+		backgound-position: center center;
+		background-repeat: no-repeat;
+		width: auto;
+		margin-bottom: 30px;
 }
 
+section .blurb {
+	max-width: 620px;
+	padding: 0 15px;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
 
 
 
