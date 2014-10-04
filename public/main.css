@@ -1,0 +1,115 @@
+/* Header */
+header {
+	height: 450px;
+	background: url('assets/images/hero-bg.jpg') center center;
+	background-size: cover;
+}
+
+header .logo svg {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin: 10px 0 0 30px;
+}
+
+header nav {
+	float: right;
+	margin: 30px 30px 0 0;
+}
+
+header nav a {
+	display: inline-block;
+	margin-left: 20px;
+	color: rgba(0,0,0,0.5);
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	color: rgba(0,0,0,0.7);
+}
+
+header h1 {
+	text-align: center;
+	font-size: 72px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 20px;
+	clear: both;
+	padding-top: 100px;
+}
+
+header h1 span {
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border: white solid 10px;
+}
+
+header .kicker {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: white;
+	line-height: 1;
+}
+
+/* Footer */
+
+footer {
+	background: url(assets/images/hero-bg.jpg) center center;
+	background-size: cover;
+}
+
+footer .lockup {
+	padding: 50px 30px;
+}
+
+footer .lockup .logo svg {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-right: 30px;
+}
+
+footer .lockup .content-wrapper {
+  	float: left; 
+}
+
+footer .lockup .content-wrapper .copyright {
+ 	margin: 0;
+ 	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+ 	color: rgba(0, 0, 0, 0.4); 
+}
+
+footer .lockup .content-wrapper a {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+	display: inline-block;
+	margin-right: 30px; 
+}
+
+footer .lockup .content-wrapper a:hover {
+  	color: rgba(0, 0, 0, 0.7); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
