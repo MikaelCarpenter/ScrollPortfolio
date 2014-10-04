@@ -66,10 +66,13 @@ header .kicker {
 footer {
 	background: url(assets/images/hero-bg.jpg) center center;
 	background-size: cover;
+	clear: both;
 }
 
 footer .lockup {
 	padding: 50px 30px;
+	display: flex;
+	align-items: center;
 }
 
 footer .lockup .logo svg {
@@ -107,7 +110,7 @@ footer .lockup .content-wrapper a:hover {
   	color: rgba(0, 0, 0, 0.7); 
 }
 
-/* About */
+/* About Face and Icons */
 
 section h3 {
 	font-family: 'Open Sans', sans-serif;
@@ -127,60 +130,70 @@ section .face-lockup {
 	justify-content: space-around;
 }
 
-section .face-lockup .face-img img{
+section .face-lockup .face-img {
 	width: 200px;
 	height: 200px;
 	margin: 0 auto;
+	order: 3;
 }
 
-section .face-lockup .icon-pencil svg{
+section .face-lockup .icon-pencil {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
 	background-color: #e5eaee;
 	border-radius: 50%;
+	order: 1;
 }
 
-section .face-lockup .icon-mouse svg {
+section .face-lockup .icon-mouse {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
 	background-color: #e5eaee;
 	border-radius: 50%;
+	order: 2;
 }
 
-section .face-lockup .icon-browser svg {
+section .face-lockup .icon-browser {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
 	background-color: #e5eaee;
 	border-radius: 50%;
+	order: 4;
 }
 
-section .face-lockup .icon-video svg {
+section .face-lockup .icon-video {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
 	background-color: #e5eaee;
 	border-radius: 50%;
+	order: 5;
 }
-/* look up media query and order for that matter */
+
 @media screen and (max-width: 650px) {
-	.face-lockup
+	section .face-lockup {
 		display: block;
 		text-align: center;
-
-	div
-		display: inline-block;
-
-	.face-img 
-		display: block;
-		backgound-position: center center;
-		background-repeat: no-repeat;
-		width: auto;
-		margin-bottom: 30px;
+	}
 }
 
+@media screen and (max-width: 650px) {
+	section div {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	section .face-lockup .face-img {
+		display: block;
+		background-repeat: no-repeat;
+		margin: 30px auto;
+	}
+}
+/* About Me blurb */
 section .blurb {
 	max-width: 620px;
 	padding: 0 15px;
@@ -190,6 +203,67 @@ section .blurb {
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
 }
+/* About Skills */
+section .skill-lockup {
+	max-width: 700px;
+	margin: 100px auto;
+	color: #999;
+}
+
+section .skill-lockup .skill-unit {
+	width: 350px;
+	float: left;
+}
+
+section .skill-lockup .skill-unit .skill-label {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section .skill-lockup .skill-unit .skill-icons {
+	margin: 2px 0 30px;
+}
+
+section .skill-lockup .skill-unit .skill-icons span {
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	margin: 0 5px;
+	background-color: #c99065;
+	border-radius: 50%;
+}
+
+section .skill-lockup .skill-unit .skill-icons span:after {
+	content: '';
+	display: block;
+	height: 10px;
+	width: 10px;
+	margin: 2px;
+	background: #fff;
+	border-radius: 50%;
+}
+/* this part isn't working */
+section .skill-lockup .skill-unit .skill-icons.skill-8 span:nth-child(n+9)  {
+	background: #e5eaee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
