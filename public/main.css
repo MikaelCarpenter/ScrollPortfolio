@@ -265,12 +265,19 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 }
 /* Work Section */
 
-.work-belt {
-	
+.section-work {
+	overflow-x: hidden;
 }
 
-.work-belt .work-wrap {
+.work-belt {
+	width: 200%;
+	position: relative;
+	left: 0%;
+}
 
+.work-belt .thumb-wrap,.work-wrap {
+	width: 50%;
+	float: left;
 }
 
 .work-belt .work-wrap .work-container {
@@ -303,12 +310,31 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	left: -60px;
 }
 
-.work-belt .work-wrap .work-container {
-	
+@media (max-width: 740px) {
+	.work-belt .work-wrap .work-container .work-return {
+		position: relative;
+	}
 }
 
-.work-belt .work-wrap .work-container {
-	
+.work-belt .work-wrap .work-container .work-return path {
+	fill: rgba(0,0,0,0.4);
+}
+
+.work-belt .work-wrap .work-container .work-return:hover {
+	opacity: 1;
+}
+
+@media (max-width: 740px) {
+	.work-belt .work-wrap .work-container .work-return {
+		left: 0px;
+		position: absolute;
+	}
+}
+
+@media (max-width: 740px) {
+	.work-belt .work-wrap .work-container h4 {
+		margin-left: 60px;
+	}
 }
 
 .alt-bg {

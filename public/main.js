@@ -26,4 +26,10 @@ function workBelt() {
 
 	});
 
+	$('.work-return').click(function() {
+
+		$('.work-belt').css('left', '0%')
+
+	})
+
 }
