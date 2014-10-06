@@ -239,7 +239,7 @@ section .skill-lockup .skill-unit .skill-icons span {
 	height: 14px;
 	width: 14px;
 	margin: 0 6px;
-	background-color: #e1c184;
+	background-color: #c99065;
 	border-radius: 50%;
 }
 
@@ -264,6 +264,53 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	}
 }
 /* Work Section */
+
+.work-belt {
+	
+}
+
+.work-belt .work-wrap {
+
+}
+
+.work-belt .work-wrap .work-container {
+	max-width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.work-belt .work-wrap .work-container h4 {
+	color: #c99065;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 1.2;
+	margin: 0 0 20px;
+}
+
+.work-belt .work-wrap .work-container img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.work-belt .work-wrap .work-container .work-return {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	opacity: 0.5;
+	position: absolute;
+	top: -4px;
+	left: -60px;
+}
+
+.work-belt .work-wrap .work-container {
+	
+}
+
+.work-belt .work-wrap .work-container {
+	
+}
+
 .alt-bg {
 	background-color: #e5eaee;
 }
@@ -273,7 +320,7 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 }
 
 .alt-bg .thumb-container {
-	max-width: 960px;
+	max-width: 1100px;
 	margin: 0 auto;
 	padding-bottom: 100px;
 }
@@ -282,9 +329,10 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	display: block;
 	width: 25%;
 	height: 150px;
-	float: left;
-	background: url(assets/images/work/Wevo/wevo.jpg) center center no-repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
 	background-size: cover;
+	float: left;
 	position: relative;
 	padding-top: 16%;
 	overflow: hidden;
@@ -300,21 +348,41 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 
 .alt-bg .thumb-container .thumb-unit .thumb-overlay {
 	position: absolute;
+	text-align: center;
 	height: 100%;
 	top: 100%;
 	bottom: null;
 	left: 0px;
 	right: 0px;
-	background-color: rgba(225, 193, 132, .9);
+	background-color: rgba(201, 141, 101, .9);
 	transition: top 200ms;
 }
-
+/* remember to do animations at the end */
 .alt-bg .thumb-container .thumb-unit:hover .thumb-overlay {
 	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 	top: 0%;
 	bottom: null;
 	left: 0px;
 	right: 0px;
+}
+
+.alt-bg .thumb-container .thumb-unit .thumb-overlay strong {
+	display: block;
+	color: white;
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 1.2
+}
+
+@media (max-width: 850px) {
+	.alt-bg .thumb-container .thumb-unit {
+		width: 50%;
+		padding-top: 26%;
+	}
 }
 
 

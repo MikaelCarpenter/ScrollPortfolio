@@ -1,5 +1,6 @@
 $(document).on('ready', function() {
 	smoothScroll(600);
+	workBelt();
 });
 
 // smoothScroll is just being defined here, but is being called in the on ready function
@@ -15,4 +16,14 @@ function smoothScroll (duration) {
 			}, duration);
 		}
 	});
+}
+
+function workBelt() {
+
+	$('.thumb-unit').click(function() {
+
+		$('.work-belt').css('left', '-100%')
+
+	});
+
 }
