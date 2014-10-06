@@ -273,6 +273,7 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	width: 200%;
 	position: relative;
 	left: 0%;
+	transition: all 800ms;
 }
 
 .work-belt .thumb-wrap,.work-wrap {
@@ -284,6 +285,7 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	max-width: 600px;
 	margin: 0 auto;
 	position: relative;
+	display: none;
 }
 
 .work-belt .work-wrap .work-container h4 {
