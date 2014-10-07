@@ -413,6 +413,19 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	}
 }
 
+/* styling for ajax */
+
+.alt-bg .work-belt .work-wrap .work-container .project-load .style-wrap {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.alt-bg .work-belt .work-wrap .work-container .project-load .style-wrap img {
+	width: 600px;
+	height: auto;
+}
+
 /* spinner CSS */
 .loader,
 .loader:before,
@@ -470,6 +483,46 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
   }
 }
 
+/* Clients Section */
+
+section h3 {
+
+}
+
+section .client-controls {
+	
+}
+
+section .client-controls .client-control-next,.client-control-prev {
+	
+}
+
+section .clients-belt {
+	width: 100%;
+	position: relative;
+}
+
+section .clients-belt .client-unit {
+	max-width: 700px;
+	margin: 0 auto 50px;
+	display: flex;
+}
+
+section .clients-belt .client-unit .client-face {
+	
+}
+
+section .clients-belt .client-unit .client-content {
+	
+}
+
+section .clients-logo {
+	
+}
+
+section .clients-logo .client-logo {
+	
+}
 
 
 
