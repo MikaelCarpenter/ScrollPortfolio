@@ -83,7 +83,7 @@ footer .lockup .logo svg {
 }
 
 footer .lockup .content-wrapper {
-  	float: left; 
+  	float: left;
 }
 
 footer .lockup .content-wrapper .copyright {
@@ -92,7 +92,7 @@ footer .lockup .content-wrapper .copyright {
  	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
- 	color: rgba(0, 0, 0, 0.4); 
+ 	color: rgba(0, 0, 0, 0.4);
 }
 
 footer .lockup .content-wrapper a {
@@ -103,11 +103,11 @@ footer .lockup .content-wrapper a {
 	text-decoration: none;
 	color: rgba(0,0,0,0.5);
 	display: inline-block;
-	margin-right: 30px; 
+	margin-right: 30px;
 }
 
 footer .lockup .content-wrapper a:hover {
-  	color: rgba(0, 0, 0, 0.7); 
+  	color: rgba(0, 0, 0, 0.7);
 }
 
 /* About Face and Icons */
@@ -485,69 +485,116 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 
 /* Clients Section */
 
-section h3 {
+#section-clients {
+	position: relative;
+}
+
+#section-clients h3 {
 
 }
 
-section .client-controls {
-	
+#section-clients .client-controls {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
 }
 
-section .client-controls .client-control-next,.client-control-prev {
-	
+#section-clients .client-controls svg {
+	height: 40px;
+	width: 40px;
 }
 
-section .clients-belt {
+#section-clients .client-controls .client-control-next {
+	top: 50%;
+	right: 10px;
+}
+
+#section-clients .client-controls .client-control-prev {
+	top: 50%;
+	left: 10px;
+}
+
+#section-clients .client-controls .client-control-next,.client-control-prev {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+}
+
+#section-clients .clients-belt {
 	width: 100%;
 	position: relative;
 }
 
-section .clients-belt .client-unit {
+#section-clients .clients-belt .client-unit {
 	max-width: 700px;
 	margin: 0 auto 50px;
 	display: flex;
 }
 
-section .clients-belt .client-unit .client-face {
-	
+#section-clients .clients-belt .client-unit .client-face {
+	min-width: 300px;
+	text-align: center;
 }
 
-section .clients-belt .client-unit .client-content {
-	
+#section-clients .clients-belt .client-unit .client-face .client-name {
+	display: block;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
 }
 
-section .clients-logo {
-	
+#section-clients .clients-belt .client-unit .client-face .client-title {
+	font-style: normal;
+	font-size: 12px;
+	color: #999;
 }
 
-section .clients-logo .client-logo {
-	
+#section-clients .clients-belt .client-unit .client-face img {
+	max-width: 100px;
+	border-radius: 50%;
 }
 
+#section-clients .clients-belt .client-unit .client-content {
+	position: relative;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 300;
+	top: -10px;
+}
 
+#section-clients .clients-belt .client-unit .client-content .client-quote-mark {
+	position: absolute;
+	top: -18px;
+	left: -10px;
+	height: 60px;
+	width: 60px;
+	z-index: -1;
+	opacity: 0.3;
+}
 
+#section-clients .clients-logos {
+	position: relative;
+	max-width: 750px;
+	margin: 0 auto 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
 
+#section-clients .clients-logos .client-logo {
+	height: 80px;
+	min-width: 200px;
+	background-image: url(assets/images/Clients/zerofriends-logo.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin: 0 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#section-clients .clients-logos .client-logo.active-client {
+	box-shadow: 0px 4px 0px 0px;
+	color: #c99065;
+}
