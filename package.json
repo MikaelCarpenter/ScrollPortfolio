@@ -1,4 +1,12 @@
 {
+	"name": "Mikael",
+	"version": "0.0.1",
+ 	"main": "app.js",
+	"web": "node app.js",
+	"scripts": {
+	   "start": "node app.js",
+	   "test": "foreman start"
+  	},
 	"dependencies": {
 		"express": "^4",
 		"jade": "^1",
