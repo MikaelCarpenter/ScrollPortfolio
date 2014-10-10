@@ -864,3 +864,7 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 .section-form form .submit-wrap [type="submit"]:hover {
 	background: #e1c184;
 }
+
+.section-form form textarea {
+	resize: none;
+}
