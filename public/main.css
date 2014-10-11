@@ -800,6 +800,18 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	}
 }
 
+@media (max-width: 400px) {
+	.section-contact .big-link {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 325px) {
+	.section-contact .big-link {
+		font-size: 16px;
+	}
+}
+
 /* Contact Form */
 
 .section-form {
