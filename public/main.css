@@ -725,16 +725,19 @@ section .skill-lockup .skill-unit .skill-icons.skill-4 span:nth-child(n+5), sect
 	text-align: center;
 }
 
-.section-contact h3 {
-
-}
-
 .section-contact .social-links {
 	max-width: 700px;
 	margin: 0px auto 50px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+
+@media (max-width: 320px) {
+	.section-contact .social-links {
+		width: 300px;
+		margin: 0px auto 50px;
+	}
 }
 
 .section-contact .social-links a {
